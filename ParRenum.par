@@ -1,0 +1,34 @@
+DATAFILE
+RRLact1.txt
+TRAITS
+6
+FIELDS_PASSED TO OUTPUT
+ 9 10 11 12 13 14 15 16
+WEIGHT(S)
+
+RESIDUAL_VARIANCE
+1332100
+EFFECT
+7 cross numer
+EFFECT 
+4 cross numer
+EFFECT 
+3 cross number
+EFFECT
+5 cov
+EFFECT
+1 cross numer
+RANDOM
+diagonal
+FILE
+
+(CO)VARIANCES
+500000
+EFFECT
+1 cross numer
+RANDOM
+animal
+FILE
+pedig_aval
+(CO)VARIANCES
+500000
