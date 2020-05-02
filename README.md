@@ -4,7 +4,7 @@ __Preparer__: *Rostam Abdollahi-Arpanahi*
 
 **Date**:  May 2, 2020
 
-Here you can see an example file for running Random Regression Analysis, Generating Legendre Polynomials coefficients and computing the Breeding Values based on Test-day Milk data in dairy cattle.
+You can see a toy example file test-day milk yeild data for running Random Regression Analysis, Generating Legendre Polynomials coefficients and computing the Breeding Values based on Test-day Milk data in dairy cattle.
 Analysis include three steps as following
 
 1. ## Run renumf90
