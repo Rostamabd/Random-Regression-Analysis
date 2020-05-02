@@ -1,0 +1,56 @@
+# BLUPF90 parameter file created by RENF90
+DATAFILE
+ renf90.dat
+NUMBER_OF_TRAITS
+           1
+NUMBER_OF_EFFECTS
+           12
+OBSERVATION(S)
+    1
+WEIGHT(S)
+ 
+EFFECTS: POSITIONS_IN_DATAFILE NUMBER_OF_LEVELS TYPE_OF_EFFECT[EFFECT NESTED]
+  2     1759 cross ### Herd-test-date 
+  3         3 cross ### milking time
+  5 1 cov ### age of dam at calving
+  10      297 cov 4  ### Days in milk
+  11      297 cov 4  
+  12     297 cov 4
+  10      1996 cov 6  ### subject repeated records
+  11      1996 cov 6  
+  12     1996 cov 6
+  10      10675 cov 7  ### random animals
+  11      10675 cov 7  
+  12     10675 cov 7
+RANDOM_RESIDUAL VALUES
+  10.50
+ RANDOM_GROUP
+   4  5  6  
+ RANDOM_TYPE
+ diagonal  
+ FILE
+                                                            
+(CO)VARIANCES
+  1     0.1    0.1     
+0.1       1    0.1      
+0.1     0.1      1
+ RANDOM_GROUP
+     7 8 9
+ RANDOM_TYPE
+ diagonal  
+ FILE
+                                                            
+(CO)VARIANCES
+ 1     0.1    0.1     
+0.1       1    0.1      
+0.1     0.1      1 
+ RANDOM_GROUP
+     10 11 12
+ RANDOM_TYPE
+ add_animal
+ FILE
+renadd06.ped                                                
+(CO)VARIANCES
+ 1     0.1    0.1     
+0.1       1    0.1      
+0.1     0.1      1  
