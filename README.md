@@ -1,6 +1,6 @@
 # Random Regression Analysis
 
-__Preparer__: *Rostam Abdollahi-Arpanahi*
+__Maintainer__: *Rostam Abdollahi-Arpanahi*
 
 **Date**:  May 2, 2020
 
