@@ -6,7 +6,7 @@ __Maintainer__: *Rostam Abdollahi-Arpanahi*
 
 ---
 
-Here you can see an example file for running Random Regression Analysis, Generating Legendre Polynomials coefficients and computing the Breeding Values based on Test-day Milk data in dairy cattle.
+Here you can see an example file for running Random Regression Analysis using BLUPf90 family programs, generating Legendre Polynomials coefficients and computing the breeding values based on Test-day milk data in dairy cattle.
 Analysis includes three steps as following:
 
 ## 1. Download the materials from github repository
@@ -18,7 +18,7 @@ git clone https://github.com/Rostamabd/Random-Regression-Analysis.git
 ## 2. Run renumf90
 
 Download blupf90 family programs from here:  [BLUPF90](http://nce.ads.uga.edu/~ignacy/newprograms.html)
-run renumf90:
+
 
 ```
 echo ParRenum.par | ./renumf90 | tee ren.log
